@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main(){
+    float income,allow,save,per;
+    scanf("%f%f",&income,&allow);
+
+    save=income-allow;
+    per=(save/income)*100;
+
+    printf("Saving=%.2f Percentage=%.2f",save,per);
+}
